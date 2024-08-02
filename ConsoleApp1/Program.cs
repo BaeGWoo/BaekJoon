@@ -3,37 +3,44 @@
     internal class Program
     {
 
-
         static void Main(string[] args)
         {
-
-            string[] str = new string[5];
-            string answer = "";
-            for(int i = 0; i < str.Length; i++)
+            while (true)
             {
-                str[i] = Console.ReadLine();
-            }
+                int number=int.Parse(Console.ReadLine());
+                int sum = 0;
 
-
-            for (int index = 0; ; index++)
-            {
-                int count = 0;
-                for (int i = 0; i < str.Length; i++)
-                {
-                    if (str[i].Length > index)
-                    {
-                        answer += str[i][index];
-                    }
-
-                    else
-                        count++;
-                }
-                if (count >= 5)
+                if (number == -1)
                     break;
+
+                Queue<int> q = new Queue<int>();
+                for(int i =1; i < number; i++)
+                {
+                    if(number%i==0)
+                    {
+                        q.Enqueue(i);
+                        sum += i;
+                    }
+                }
+                if (sum == number)
+                {
+                    Console.Write(number + " = 1");
+                    q.Dequeue();
+                    while(q.Count > 0)
+                    {
+                        Console.Write(" + ");
+                        int cur=q.Dequeue();
+                        
+                        Console.Write(cur);  
+                    }
+                    Console.WriteLine();
+                }
+
+                else
+                {
+                    Console.WriteLine(number + " is NOT perfect.");
+                }
             }
-
-            Console.WriteLine(answer);
-
 
         }
     }
