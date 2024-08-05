@@ -19,19 +19,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "행렬덧셈", "..\행렬�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "최댓값", "..\최댓값\최댓값.csproj", "{2189D980-A4F6-4E26-A2F4-75D1171B1F40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "세로읽기", "..\세로읽기\세로읽기.csproj", "{36A94C55-6ECA-4FA2-B696-5C7070A4F21E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "세로읽기", "..\세로읽기\세로읽기.csproj", "{36A94C55-6ECA-4FA2-B696-5C7070A4F21E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "색종이", "..\색종이\색종이.csproj", "{D0FFA5F1-BC60-4DF2-A4BC-B63ACB9589BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "색종이", "..\색종이\색종이.csproj", "{D0FFA5F1-BC60-4DF2-A4BC-B63ACB9589BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "진법변환", "..\진법변환\진법변환.csproj", "{1E974E95-F898-4C17-840F-49D464409C76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "진법변환", "..\진법변환\진법변환.csproj", "{1E974E95-F898-4C17-840F-49D464409C76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "진법교환2", "..\진법교환2\진법교환2.csproj", "{DF393EFD-A238-4E89-BD41-50D53E910D35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "진법교환2", "..\진법교환2\진법교환2.csproj", "{DF393EFD-A238-4E89-BD41-50D53E910D35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "세탁소사장 동혁", "..\세탁소사장 동혁\세탁소사장 동혁.csproj", "{60531794-0C9C-4DFD-8859-D58146398ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "세탁소사장 동혁", "..\세탁소사장 동혁\세탁소사장 동혁.csproj", "{60531794-0C9C-4DFD-8859-D58146398ED8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "배수와 약수", "..\배수와 약수\배수와 약수.csproj", "{1DB0F011-9830-47ED-ACD2-DAA1947367AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "배수와 약수", "..\배수와 약수\배수와 약수.csproj", "{1DB0F011-9830-47ED-ACD2-DAA1947367AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "약수 구하기", "..\약수 구하기\약수 구하기.csproj", "{10A21556-DDB9-48A6-87B0-46F946FCE5FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "약수 구하기", "..\약수 구하기\약수 구하기.csproj", "{10A21556-DDB9-48A6-87B0-46F946FCE5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "약수들의 합", "..\약수들의 합\약수들의 합.csproj", "{EC59316E-CAD2-46EA-B030-BCB7564E1532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "소수찾기", "..\소수찾기\소수찾기.csproj", "{1F3FB943-39FF-44C5-829C-AEED8E593651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "소수", "..\소수\소수.csproj", "{00FB238A-09BA-45D7-A5DD-678ADD9E683D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "소인수분해", "..\소인수분해\소인수분해.csproj", "{98EB2F94-1AA4-4F32-87CA-9DF323780E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "네번째 점", "..\네번째 점\네번째 점.csproj", "{A1B85682-11C1-4541-983F-875E437AE5CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "삼각형과 세 변", "..\삼각형과 세 변\삼각형과 세 변.csproj", "{ED68364E-99B9-42E2-B37C-24F4D866E65B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "세 막대", "..\세 막대\세 막대.csproj", "{FB1422F2-8454-49CA-A951-A618CEBFB0D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +113,34 @@ Global
 		{10A21556-DDB9-48A6-87B0-46F946FCE5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A21556-DDB9-48A6-87B0-46F946FCE5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A21556-DDB9-48A6-87B0-46F946FCE5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC59316E-CAD2-46EA-B030-BCB7564E1532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC59316E-CAD2-46EA-B030-BCB7564E1532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC59316E-CAD2-46EA-B030-BCB7564E1532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC59316E-CAD2-46EA-B030-BCB7564E1532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F3FB943-39FF-44C5-829C-AEED8E593651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3FB943-39FF-44C5-829C-AEED8E593651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3FB943-39FF-44C5-829C-AEED8E593651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3FB943-39FF-44C5-829C-AEED8E593651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FB238A-09BA-45D7-A5DD-678ADD9E683D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FB238A-09BA-45D7-A5DD-678ADD9E683D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FB238A-09BA-45D7-A5DD-678ADD9E683D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FB238A-09BA-45D7-A5DD-678ADD9E683D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EB2F94-1AA4-4F32-87CA-9DF323780E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EB2F94-1AA4-4F32-87CA-9DF323780E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EB2F94-1AA4-4F32-87CA-9DF323780E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EB2F94-1AA4-4F32-87CA-9DF323780E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B85682-11C1-4541-983F-875E437AE5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B85682-11C1-4541-983F-875E437AE5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B85682-11C1-4541-983F-875E437AE5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B85682-11C1-4541-983F-875E437AE5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED68364E-99B9-42E2-B37C-24F4D866E65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED68364E-99B9-42E2-B37C-24F4D866E65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED68364E-99B9-42E2-B37C-24F4D866E65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED68364E-99B9-42E2-B37C-24F4D866E65B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1422F2-8454-49CA-A951-A618CEBFB0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1422F2-8454-49CA-A951-A618CEBFB0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1422F2-8454-49CA-A951-A618CEBFB0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1422F2-8454-49CA-A951-A618CEBFB0D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
