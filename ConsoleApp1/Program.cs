@@ -5,19 +5,66 @@
        
         static void Main(string[] args)
         {
-           long n=long.Parse(Console.ReadLine());
+            string[] matrix = Console.ReadLine().Split();
+            int row = int.Parse(matrix[0]);
+            int col= int.Parse(matrix[1]);
 
-            long result=0;
-            long index = n - 2;
-            for(long i = 1; i <= n - 2; i++)
+            char[][] board= new char[row][];
+            for(int i = 0; i < row; i++)
             {
-                result += i * (index--);
+                board[i] = new char[col];
+                string temp= Console.ReadLine();
+                for (int j = 0; j < temp.Length; j++) {
+                    board[i][j] = temp[j];
+                }
             }
-            
-            Console.WriteLine(result);
-            Console.WriteLine(3);
+
+            int count = 0;
+            int Rcount = 0;
+            int min = -1;
            
 
+            char startPoint = 'B';
+            char RstartPoint = 'W';
+            for (int s = 0; s <= row - 8; s++)
+            {
+                for (int k = 0; k <= col - 8; k++)
+                {
+                    for (int i = s; i < s+8; i++)
+                    {
+                        for (int j = k; j < k+8; j++)
+                        {
+                            if (board[i][j] != startPoint)
+                            {   
+                                count++;
+                            }
+                            if (board[i][j] != RstartPoint)
+                            {                               
+                                Rcount++;
+                            }
+
+                            if (j != k+7)
+                            {
+                                char temp = startPoint;
+                                startPoint = RstartPoint;
+                                RstartPoint = temp;
+                            }
+
+                        }
+                    }
+                    if (count < min||min==-1)
+                        min = count;
+                    if(Rcount<min)
+                        min = Rcount;
+                    count = 0;
+                    Rcount = 0;
+                }
+            }
+          
+          
+            Console.WriteLine(min);
+           
+            
 
         }
     }

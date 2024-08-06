@@ -33,19 +33,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "배수와 약수", "..\배�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "약수 구하기", "..\약수 구하기\약수 구하기.csproj", "{10A21556-DDB9-48A6-87B0-46F946FCE5FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "약수들의 합", "..\약수들의 합\약수들의 합.csproj", "{EC59316E-CAD2-46EA-B030-BCB7564E1532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "약수들의 합", "..\약수들의 합\약수들의 합.csproj", "{EC59316E-CAD2-46EA-B030-BCB7564E1532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "소수찾기", "..\소수찾기\소수찾기.csproj", "{1F3FB943-39FF-44C5-829C-AEED8E593651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "소수찾기", "..\소수찾기\소수찾기.csproj", "{1F3FB943-39FF-44C5-829C-AEED8E593651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "소수", "..\소수\소수.csproj", "{00FB238A-09BA-45D7-A5DD-678ADD9E683D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "소수", "..\소수\소수.csproj", "{00FB238A-09BA-45D7-A5DD-678ADD9E683D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "소인수분해", "..\소인수분해\소인수분해.csproj", "{98EB2F94-1AA4-4F32-87CA-9DF323780E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "소인수분해", "..\소인수분해\소인수분해.csproj", "{98EB2F94-1AA4-4F32-87CA-9DF323780E54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "네번째 점", "..\네번째 점\네번째 점.csproj", "{A1B85682-11C1-4541-983F-875E437AE5CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "네번째 점", "..\네번째 점\네번째 점.csproj", "{A1B85682-11C1-4541-983F-875E437AE5CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "삼각형과 세 변", "..\삼각형과 세 변\삼각형과 세 변.csproj", "{ED68364E-99B9-42E2-B37C-24F4D866E65B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "삼각형과 세 변", "..\삼각형과 세 변\삼각형과 세 변.csproj", "{ED68364E-99B9-42E2-B37C-24F4D866E65B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "세 막대", "..\세 막대\세 막대.csproj", "{FB1422F2-8454-49CA-A951-A618CEBFB0D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "세 막대", "..\세 막대\세 막대.csproj", "{FB1422F2-8454-49CA-A951-A618CEBFB0D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "알고리즘 수행시간6", "..\알고리즘 수행시간6\알고리즘 수행시간6.csproj", "{87873625-519C-473A-874C-CEF545581D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "점근적표기", "..\점근적표기\점근적표기.csproj", "{C393A516-BDA9-41EA-81BB-4C8A5F629A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "블랙잭", "..\블랙잭\블랙잭.csproj", "{4B5180A9-0B3D-4578-996D-F94FB92FCAA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "분해합", "..\분해합\분해합.csproj", "{BBA3F5FD-5A65-4A81-985D-73EB4D595881}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +149,22 @@ Global
 		{FB1422F2-8454-49CA-A951-A618CEBFB0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB1422F2-8454-49CA-A951-A618CEBFB0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB1422F2-8454-49CA-A951-A618CEBFB0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87873625-519C-473A-874C-CEF545581D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87873625-519C-473A-874C-CEF545581D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87873625-519C-473A-874C-CEF545581D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87873625-519C-473A-874C-CEF545581D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C393A516-BDA9-41EA-81BB-4C8A5F629A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C393A516-BDA9-41EA-81BB-4C8A5F629A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C393A516-BDA9-41EA-81BB-4C8A5F629A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C393A516-BDA9-41EA-81BB-4C8A5F629A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5180A9-0B3D-4578-996D-F94FB92FCAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5180A9-0B3D-4578-996D-F94FB92FCAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5180A9-0B3D-4578-996D-F94FB92FCAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5180A9-0B3D-4578-996D-F94FB92FCAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA3F5FD-5A65-4A81-985D-73EB4D595881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA3F5FD-5A65-4A81-985D-73EB4D595881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA3F5FD-5A65-4A81-985D-73EB4D595881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA3F5FD-5A65-4A81-985D-73EB4D595881}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
