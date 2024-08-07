@@ -2,69 +2,53 @@
 {
     internal class Program
     {
-       
+
+        static void Sort(ref long[] numbers,long start,long end)
+        {
+            if (end - start <= 1)
+                return;
+
+            long pivotNum = numbers[start];
+            long pivot = start;
+            long leftindex = start+1;
+            long rightindex = end;
+
+          
+
+            long cur = numbers[start];
+            numbers[start] = numbers[rightindex];
+            numbers[rightindex] = cur;
+
+            
+          
+
+            Sort(ref numbers, start, rightindex-1);
+            Sort(ref numbers, rightindex+1, end);
+        }
+
+
         static void Main(string[] args)
         {
-            string[] matrix = Console.ReadLine().Split();
-            int row = int.Parse(matrix[0]);
-            int col= int.Parse(matrix[1]);
-
-            char[][] board= new char[row][];
-            for(int i = 0; i < row; i++)
+            long count = long.Parse(Console.ReadLine());
+            long[] numbers = new long[count];
+            for (long i = 0; i < count; i++)
             {
-                board[i] = new char[col];
-                string temp= Console.ReadLine();
-                for (int j = 0; j < temp.Length; j++) {
-                    board[i][j] = temp[j];
-                }
+                numbers[i] = int.Parse(Console.ReadLine());
             }
 
-            int count = 0;
-            int Rcount = 0;
-            int min = -1;
-           
-
-            char startPoint = 'B';
-            char RstartPoint = 'W';
-            for (int s = 0; s <= row - 8; s++)
-            {
-                for (int k = 0; k <= col - 8; k++)
-                {
-                    for (int i = s; i < s+8; i++)
-                    {
-                        for (int j = k; j < k+8; j++)
-                        {
-                            if (board[i][j] != startPoint)
-                            {   
-                                count++;
-                            }
-                            if (board[i][j] != RstartPoint)
-                            {                               
-                                Rcount++;
-                            }
-
-                            if (j != k+7)
-                            {
-                                char temp = startPoint;
-                                startPoint = RstartPoint;
-                                RstartPoint = temp;
-                            }
-
-                        }
-                    }
-                    if (count < min||min==-1)
-                        min = count;
-                    if(Rcount<min)
-                        min = Rcount;
-                    count = 0;
-                    Rcount = 0;
-                }
-            }
-          
-          
-            Console.WriteLine(min);
-           
+            long start = 0;
+            long end = count;
             
+
+            Sort(ref numbers, start, end-1);
+
+            for (long i = 0; i < count; i++)
+            {
+                Console.WriteLine(numbers[i]);
+            }
+
+
+
 
         }
     }

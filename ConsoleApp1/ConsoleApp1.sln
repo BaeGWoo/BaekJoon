@@ -47,13 +47,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "삼각형과 세 변", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "세 막대", "..\세 막대\세 막대.csproj", "{FB1422F2-8454-49CA-A951-A618CEBFB0D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "알고리즘 수행시간6", "..\알고리즘 수행시간6\알고리즘 수행시간6.csproj", "{87873625-519C-473A-874C-CEF545581D11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "알고리즘 수행시간6", "..\알고리즘 수행시간6\알고리즘 수행시간6.csproj", "{87873625-519C-473A-874C-CEF545581D11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "점근적표기", "..\점근적표기\점근적표기.csproj", "{C393A516-BDA9-41EA-81BB-4C8A5F629A5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "점근적표기", "..\점근적표기\점근적표기.csproj", "{C393A516-BDA9-41EA-81BB-4C8A5F629A5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "블랙잭", "..\블랙잭\블랙잭.csproj", "{4B5180A9-0B3D-4578-996D-F94FB92FCAA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "블랙잭", "..\블랙잭\블랙잭.csproj", "{4B5180A9-0B3D-4578-996D-F94FB92FCAA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "분해합", "..\분해합\분해합.csproj", "{BBA3F5FD-5A65-4A81-985D-73EB4D595881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "분해합", "..\분해합\분해합.csproj", "{BBA3F5FD-5A65-4A81-985D-73EB4D595881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "체스판 다시 칠하기", "..\체스판 다시 칠하기\체스판 다시 칠하기.csproj", "{43323406-2AC0-4E6D-ABDD-819C37CE7855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "영화감독 숌", "..\영화감독 숌\영화감독 숌.csproj", "{63D69C37-2BFB-478E-9A8F-C57A896B9F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "설탕배달", "..\설탕배달\설탕배달.csproj", "{1135B37F-87DF-426A-BA0C-FA36B1AF8A54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +171,18 @@ Global
 		{BBA3F5FD-5A65-4A81-985D-73EB4D595881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBA3F5FD-5A65-4A81-985D-73EB4D595881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBA3F5FD-5A65-4A81-985D-73EB4D595881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43323406-2AC0-4E6D-ABDD-819C37CE7855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43323406-2AC0-4E6D-ABDD-819C37CE7855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43323406-2AC0-4E6D-ABDD-819C37CE7855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43323406-2AC0-4E6D-ABDD-819C37CE7855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D69C37-2BFB-478E-9A8F-C57A896B9F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D69C37-2BFB-478E-9A8F-C57A896B9F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D69C37-2BFB-478E-9A8F-C57A896B9F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D69C37-2BFB-478E-9A8F-C57A896B9F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1135B37F-87DF-426A-BA0C-FA36B1AF8A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1135B37F-87DF-426A-BA0C-FA36B1AF8A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1135B37F-87DF-426A-BA0C-FA36B1AF8A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1135B37F-87DF-426A-BA0C-FA36B1AF8A54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
